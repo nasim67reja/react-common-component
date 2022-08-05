@@ -4,7 +4,7 @@
 
 This is a brone structer of a navbar which is build by Reactjs and Tailwind CSS
 
-```JacaScript
+```JavaScript
 
 import React, { useState } from "react";
 
@@ -55,6 +55,7 @@ export default Navbar;
 
 ```
 
+<!--
 ## Table of contents
 
 - [The challenge](#the-challenge)
@@ -117,4 +118,4 @@ const requests = {
 
 - Website - [Nasim Reja](https://www.your-site.com)
 - Frontend Mentor - [@nasim67reja](https://www.frontendmentor.io/profile/@nasim67reja)
-- Twitter - [@Nasimreja97](https://www.twitter.com/@Nasimreja97)
+- Twitter - [@Nasimreja97](https://www.twitter.com/@Nasimreja97) -->
