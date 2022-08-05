@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo.png";
 import Button from "../Button";
-// import NavLinks from "./NavLinks";
+import NavLinks from "./Navlinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -20,13 +20,14 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          {/* <NavLinks /> */}
+          <NavLinks />
         </ul>
         <div className="hidden md:block">
           <Button />
         </div>
 
         {/* Mobile nav */}
+
         <ul
           className={`
         fixed top-0 bottom-0 w-full overflow-y-auto bg-white py-24 pl-4 duration-500
@@ -38,7 +39,7 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          {/* <NavLinks /> */}
+          <NavLinks />
           <div className="py-5">
             <Button />
           </div>
